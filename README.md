@@ -7,7 +7,7 @@ touch README.md # create file
 vim README.md # edit file
 echo "print("Hi!") >> hello.py
 git add .
-git commit -m "initial commit"
+git commit -m "initial commit" # commit e532f8b9e132b4e0b1a7c49ff5668d51c06994e2 (HEAD -> main)
 <Go to github account, create a new repo with same name as on local machine>
 # Map the remote to local repo
 # git remote add <local repo> <remote repo's url>
@@ -15,7 +15,8 @@ git commit -m "initial commit"
 git remote add origin url
 
 # Push the code to the remote repository's main branch
-git push -u origin main
+git push -u origin main # commit e532f8b9e132b4e0b1a7c49ff5668d51c06994e2 (HEAD -> main, origin/main)
+
 
 
 ```
