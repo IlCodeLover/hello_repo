@@ -20,6 +20,9 @@ git push -u origin main # commit e532f8b9e132b4e0b1a7c49ff5668d51c06994e2 (HEAD 
 
 
 ```
-
+Note that the 'origin' s a default name that Git assigns to the remote repository you clone from or connect to. So, when you want to call remote repo, you use 'origin' as shortname instead of for a long remote URL
+```bash
+git remote -v
+```
 
 
